@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --font-Gluten:  "Gluten", serif;
+    --font-Inter:  "Inter", serif;
+    
+  --color-BrownDefault: oklch(39.49% 0.034 75.54);
+  --color-sec2: oklch(94.40% 0.016 86.43)
+  }
