@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MainLogo from "../assets/MainLogo.png";
 import { FiMenu, FiX } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,20 +29,20 @@ const Header = () => {
 
       
       <ul className="hidden md:flex space-x-4">
-        <li><a href="#" className="hover:underline">Home</a></li>
-        <li><a href="#" className="hover:underline">About</a></li>
-        <li><a href="#" className="hover:underline">Services</a></li>
-        <li><a href="#" className="hover:underline">Contact</a></li>
+        <li><Link to={"/"} className="hover:underline">Home</Link></li>
+        <li><Link to={"/about"} className="hover:underline">About</Link></li>
+        <li><Link to={"/services"} className="hover:underline">Services</Link></li>
+        <li><Link to={"/contact"} className="hover:underline">Contact</Link></li>
       </ul>
 
      
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-md md:hidden">
           <ul className="flex flex-col space-y-4 p-4">
-            <li><a href="#" className="hover:underline block">Home</a></li>
-            <li><a href="#" className="hover:underline block">About</a></li>
-            <li><a href="#" className="hover:underline block">Services</a></li>
-            <li><a href="#" className="hover:underline block">Contact</a></li>
+            <li><Link to={"/"} className="hover:underline block">Home</Link></li>
+            <li><Link to={"/about"} className="hover:underline block">About</Link></li>
+            <li><Link to={"/services"} className="hover:underline block">Services</Link></li>
+            <li><Link to={"/contact"} className="hover:underline block">Contact</Link></li>
           </ul>
         </div>
       )}
