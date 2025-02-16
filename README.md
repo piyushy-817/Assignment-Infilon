@@ -1,8 +1,31 @@
-# React + Vite
+# 🎣 Assignment- Infilon -- Fly Fishing Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Fly Fishing Website** built with **React, Vite, and Tailwind CSS**. This project provides an interactive and visually appealing UI for exploring fishing experiences, stories, and gear recommendations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+
+- **Frontend:** React.js (Vite)  
+- **Styling:** Tailwind CSS  
+- **State Management:** useState (React Hooks)  
+- **Image Handling:** Local Assets  
+
+
+---
+
+
+
+## 🎯 Features
+
+✅ **Fully Responsive** (Mobile & Desktop)  
+✅ **Member Stories Section** with Images & Descriptions  
+✅ **Featured Options Accordion** for Interactive Content  
+✅ **Modern UI with Tailwind CSS**  
+✅ **Optimized Performance with Vite**  
+✅ **Clean & Maintainable Code**  
+
+---
+
+
+
